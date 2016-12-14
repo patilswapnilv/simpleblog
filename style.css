@@ -1,0 +1,31 @@
+/*
+ Theme Name:   Simple Blog
+ Theme URI:    http://github.com/patilswapnilv/simple-blog/
+ Description:  Custom Child Theme for Twenty Seventeen
+ Author:       Swapnil V. Patil
+ Author URI:   http://github.com/patilswapnilv
+ Template:     twentyseventeen
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  simple-blog
+*/
+
+@import url("../twentyseventeen/style.css");
+
+
+.frame {
+    max-width: 980px;
+    margin: 0 auto;
+    min-width: 268px;
+}
+
+@media screen and (min-width: 48em)
+.error404 .page-content {
+    padding-bottom: 0;
+}
+
+.error404 .page-content {
+    padding-bottom: 0;
+}
